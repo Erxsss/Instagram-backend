@@ -1,4 +1,4 @@
-import mongoose, { connect, mongo } from "mongoose";
+import mongoose from "mongoose";
 import express from "express";
 import cors from "cors";
 import userRouter from "./router/user.route.js";
