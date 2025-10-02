@@ -9,5 +9,5 @@ export const createPost = async (req, res) => {
     comment: body.comment,
     images: body.images,
   });
-  res.json(newPost);
+  res.json(newPost, postModel);
 };
